@@ -1,5 +1,5 @@
 * {
-    margin: 2px
+    margin: 2px;
     box-sizing: border-box;
     color: #0f1110;
     font-family: 'Times New Roman', Times, serif;
@@ -11,6 +11,7 @@
     margin: 15px;
     font-weight: bold;
     text-align: center;
+    position:relative; top:-10px; left:60px;
 }
 
 #Profile {
@@ -35,6 +36,8 @@
     left: -18px;
     top: 10px
 }
+
+
 
 #education {
     width: 700px;
@@ -86,3 +89,4 @@
     position: relative;
     left: -260px;
     top: -55px;
+}
