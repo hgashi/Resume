@@ -15,7 +15,7 @@ body {
 }
 
 #left_side {
-    flex: 1 1 300px;
+    flex: 1 1 600px;
     padding: 1em;
     line-height: 1.5em;
     text-align: left;
@@ -34,7 +34,7 @@ h1 {
     top: 15px;
     text-align: center;
     border-style: double;
-    padding: 1mm;
+    padding: 1.5mm;
 }
 
 #title {
