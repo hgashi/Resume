@@ -1,35 +1,48 @@
-body{
+body {
     font-family: 'Times New Roman', Times, serif;
     margin: auto;
     max-width: 1000px;
     display: flex;
     align-items: flex-start;
+    text-align: center;
     font-size: 12pt;
+    background-color: rgb(233, 181, 133);
+    color: #58341bf8;
 }
-#left_side{
-    flex: 1 1 600px;
-    padding: 1em;
-    line-height: 1.5em;
-}
-#right_side{
-    border-left: black solid 1px;
-    flex: 1 1 600px;
-    padding: 1em;
-    line-height: 1.5em;
-}
-h1,
-h2{
+
+#professionalHeadshot {
     text-align: center;
 }
-h2{
-    position: relative; top: 15px;
-    border-bottom: black solid 1px;
+
+#left_side {
+    flex: 1 1 300px;
+    padding: 1em;
+    line-height: 1.5em;
+    text-align: left;
 }
-#title{
+
+#right_side {
+    border-left: #c27b1e solid 1px;
+    flex: 1 1 600px;
+    padding: 1em;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+h1 {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    border-style: double;
+    padding: 1mm;
+}
+#title {
     text-align: center;
     font-size: 24px;
 }
-p{
+
+p {
     margin-top: 0px;
     margin-bottom: .5em;
 }
+
