@@ -1,94 +1,35 @@
-* {
-    margin: 2px;
-    box-sizing: border-box;
-    color: #0f1110;
+body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(177, 228, 230);
+    margin: auto;
+    max-width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 12pt;
 }
-
-.NameandInfo {
-    width: 700px;
-    margin: 15px;
-    font-weight: bold;
+#left_side{
+    flex: 1 1 600px;
+    padding: 1em;
+    line-height: 1.5em;
+}
+#right_side{
+    border-left: black solid 1px;
+    flex: 1 1 600px;
+    padding: 1em;
+    line-height: 1.5em;
+}
+h1,
+h2{
     text-align: center;
-    position:relative; top:-10px; left:200px;
 }
-
-#Profile {
-    width: 700px;
-    margin: 30px;
-    padding-bottom: 30px;
-    text-align: left;
-    margin-top: 40px;
+h2{
+    position: relative; top: 15px;
+    border-bottom: black solid 1px;
 }
-
-
-
-#Profile .header1 {
-    float: left;
-    padding-right: 150px;
-    margin-top: 15px;
-    display: inline;
+#title{
+    text-align: center;
+    font-size: 24px;
 }
-
-#Profile .paragraph {
-    display: inline;
-    position: relative;
-    position: relative;
-    left: -18px;
-    top: 10px
-}
-
-
-
-#education {
-    width: 700px;
-    margin: 18px;
-    padding-bottom: 10px;
-    text-align: left;
-    margin-top: 10px;
-}
-
-#education .header2 {
-    float: left;
-    padding-right: 50px;
-    margin-top: -10px;
-    margin-right: 0px;
-    display: inline;
-    position: relative;
-    top: 75px
-}
-
-#education .schools {
-    display: inline;
-    float: right;
-    margin-right: 50px;
-    position: relative;
-    left: -10px;
-    top: -15px;
-}
-
-#skills {
-    width: 700px;
-    margin: 18px;
-    padding-bottom: 10px;
-    text-align: left;
-    margin-top: 100px;
-    position: relative;
-    top: 75px
-}
-
-#skills .header3 {
-    float: left;
-    padding-right: 50px;
-    margin-top: 15px;
-    display: inline;
-}
-
-#skills .skills3 {
-    display: inline;
-    float: right;
-    position: relative;
-    left: -260px;
-    top: -55px;
+p{
+    margin-top: 0px;
+    margin-bottom: .5em;
 }
